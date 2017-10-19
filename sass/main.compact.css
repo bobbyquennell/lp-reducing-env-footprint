@@ -81,11 +81,7 @@ html, body { height: 80%; margin: 0; padding: 0; }
 
 .lp-container header { position: relative; background: url("../images/bg_header.jpg") no-repeat; background-size: contain; }
 
-@media only screen and (max-width: 40em) { .lp-container header { background: url("../images/bg_header_mobile.jpg") no-repeat; } }
-
 .lp-container header article { padding-top: 30%; }
-
-@media only screen and (max-width: 40em) { .lp-container header article { padding-top: 90%; } }
 
 .lp-container img.header-img { width: 100%; }
 

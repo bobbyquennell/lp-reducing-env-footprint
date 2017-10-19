@@ -97,15 +97,15 @@ body {
     position: relative;
     background: url("../images/bg_header.jpg") no-repeat;
     background-size: contain;
-    @include bp-medium {
-      background: url("../images/bg_header_mobile.jpg") no-repeat;
-      // background-size: contain;
-    };
+    // @include bp-medium {
+    //   background: url("../images/bg_header_mobile.jpg") no-repeat;
+    //   // background-size: contain;
+    // };
     article {
       padding-top: 30%;
-      @include bp-medium {
-        padding-top: 90%;
-      };
+      // @include bp-medium {
+      //   padding-top: 90%;
+      // };
       //min-height:400px;
     }
   }
